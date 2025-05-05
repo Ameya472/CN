@@ -228,6 +228,10 @@ Exp 8: Telnet
 Enter:
 sudo apt-get install telnetd
 sudo apt-get install xinetd
+sudo systemctl restart openbsd-inetd
+sudo systemctl status openbsd-inetd
+sudo apt-get install openbsd-inetd
+
 ●	Restart xinetd
 Enter:
 sudo systemctl restart xinetd
